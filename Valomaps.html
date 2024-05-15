@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ValorantUnveil</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="Valohome.css">
+    <link rel="stylesheet" href="Valoagents.css">
 </head>
 <body>
     
@@ -16,16 +16,16 @@
         </div>
 
         <ul>
-            <li class="item-menu ativo">
+            <li class="item-menu">
                 <a href="Valohome.html">
-                    <span class="icon"><i class="bi bi-mouse2"></i></i></span>
+                    <span class="icon"><i class="bi bi-mouse2"></i></span>
                     <span class="txt-link">Home</span>
                 </a>
             </li>
 
             <li class="item-menu">
                 <a href="Valoagents.html">
-                    <span class="icon"><i class="bi bi-person-badge"></i></i></span>
+                    <span class="icon"><i class="bi bi-person-badge"></i></span>
                     <span class="txt-link">Agentes</span>
                 </a>
             </li>
@@ -37,7 +37,7 @@
                 </a>
             </li>
 
-            <li class="item-menu">
+            <li class="item-menu ativo">
                 <a href="Valomaps.html">
                     <span class="icon"><i class="bi bi-map"></i></span>
                     <span class="txt-link">Mapas</span>
@@ -60,7 +60,18 @@
             
         </ul>
     </nav>
+
+    <div class="container" id="maps-container">
+        <!-- Aqui serão inseridos os cards dos mapas -->
+    </div>
+
+    <div class="modal" id="map-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="map-info"></div>
+        </div>
+    </div>
     
-    <script src="Valohome.js"></script>
+    <script src="Valomaps.js"></script>
 </body>
 </html>
