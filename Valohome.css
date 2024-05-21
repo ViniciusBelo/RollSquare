@@ -9,7 +9,7 @@
 }
 
 body{
-    height: 900vh;
+    height: 100vh;
     background-color: #332f2f;
 }
 
@@ -68,7 +68,8 @@ ul li.item-menu a{
     font-size: 20px;
     padding: 20px 4%;
     display: flex;
-    margin-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 80px;
     line-height: 60px;
 }
 
@@ -87,3 +88,27 @@ ul li.item-menu a .icon > i{
     font-size: 30px;
     margin-left: 10px;
 }
+
+.descricao{
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    font-size: 20px;
+    align-items: center;
+    border: 1px solid #332f2f;
+    border-radius: 20px;
+    background-color: #919191;
+    text-align: center;
+}
+
+.titulo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.separa{padding-bottom: 20px;}

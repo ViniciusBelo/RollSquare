@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ValorantUnveil</title>
+    <title>Formulário de Agente de Valorant</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="Valoagents.css">
 </head>
@@ -18,59 +18,56 @@
         <ul>
             <li class="item-menu">
                 <a href="Valohome.html">
-                    <span class="icon"><i class="bi bi-mouse2"></i></span>
+                    <span class="icon"><i class="bi bi-mouse2"></i></i></span>
                     <span class="txt-link">Home</span>
                 </a>
             </li>
 
             <li class="item-menu">
                 <a href="Valoagents.html">
-                    <span class="icon"><i class="bi bi-person-badge"></i></span>
+                    <span class="icon"><i class="bi bi-person-badge"></i></i></span>
                     <span class="txt-link">Agentes</span>
                 </a>
             </li>
 
-            <li class="item-menu">
-                <a href="Valoguns.html">
-                    <span class="icon"><i class="bi bi-bandaid"></i></span>
-                    <span class="txt-link">Armas</span>
-                </a>
-            </li>
-
-            <li class="item-menu ativo">
+            <li class="item-menu  ativo">
                 <a href="Valomaps.html">
                     <span class="icon"><i class="bi bi-map"></i></span>
-                    <span class="txt-link">Mapas</span>
-                </a>
-            </li>
-
-            <li class="item-menu">
-                <a href="Valohome.html">
-                    <span class="icon"><i class="bi bi-person"></i></span>
-                    <span class="txt-link">Conta</span>
-                </a>
-            </li>
-
-            <li class="item-menu">
-                <a href="Valohome.html">
-                    <span class="icon"><i class="bi bi-x-circle"></i></span>
-                    <span class="txt-link">Sair</span>
+                    <span class="txt-link">Formulário</span>
                 </a>
             </li>
             
         </ul>
     </nav>
 
-    <div class="container" id="maps-container">
-        <!-- Aqui serão inseridos os cards dos mapas -->
+
+    <div class="descricao">
+        <h1 class="titulo">Adicionar Novo Agente de Valorant</h1>
+        <form id="agentForm">
+            <div class="form-group">
+                <label for="name">Nome do Agente:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Função:</label>
+                <input type="text" id="role" name="role" required>
+            </div>
+            <div class="form-group">
+                <label for="abilities">Habilidades:</label>
+                <textarea id="abilities" name="abilities" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="bio">Biografia:</label>
+                <textarea id="bio" name="bio" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="image">URL da Imagem:</label>
+                <input type="url" id="image" name="image">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </div>
 
-    <div class="modal" id="map-info-modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="map-info"></div>
-        </div>
-    </div>
     
     <script src="Valomaps.js"></script>
 </body>
