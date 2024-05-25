@@ -17,7 +17,7 @@ nav.menu-lateral {
     width: 70px;
     height: 100%;
     background-color: #202020;
-    padding: 40px 0 40px 1%;
+    padding: 20px 0 40px 1%;
     box-shadow: 5px 0 0 #8C0000;
     position: fixed;
     top: 0;
@@ -96,7 +96,7 @@ ul li.item-menu a .icon > i {
     justify-content: center;
     align-items: center;
     margin-top: 10px; 
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 .card {

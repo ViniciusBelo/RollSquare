@@ -16,7 +16,7 @@ btnExp.addEventListener('click', function(){
 });
 
 // URL base da API
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "http://localhost:8080/users";
 
 const agentsData = [
     { id: 1, name: "Jett", imageUrl: "img/Jett_Artwork_Full.png" },
