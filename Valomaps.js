@@ -27,10 +27,8 @@ document.getElementById('agentForm').addEventListener('submit', function(event) 
 
   const agent = {
       name: document.getElementById('name').value,
-      role: document.getElementById('role').value,
-      abilities: document.getElementById('abilities').value,
+      classe: document.getElementById('classe').value,
       bio: document.getElementById('bio').value,
-      image: document.getElementById('image').value
   };
 
   fetch('https://seu-endpoint-aqui.com/api/agents', {

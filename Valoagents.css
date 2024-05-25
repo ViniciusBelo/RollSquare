@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-   
 }
 
-body{
+body {
     height: 100vh;
     background-color: #332f2f;
 }
 
-/*Sidebar*/
-
-nav.menu-lateral{
+/* Sidebar */
+nav.menu-lateral {
     width: 70px;
     height: 100%;
     background-color: #202020;
@@ -28,43 +26,43 @@ nav.menu-lateral{
     transition: .4s;
 }
 
-nav.menu-lateral.expandir{
+nav.menu-lateral.expandir {
     width: 300px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
     padding-left: 10px;
 }
 
-.btn-expandir > i{
+.btn-expandir > i {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
 }
 
-ul{
+ul {
     height: 100%;
     list-style-type: none;
 }
 
-ul li.item-menu{
+ul li.item-menu {
     transition: .4s;
 }
 
-ul li.ativo{
+ul li.ativo {
     background-color: #8C0000;
     margin-right: 3px;
     border-radius: 30px;
 }
 
-ul li.item-menu:hover{
+ul li.item-menu:hover {
     background: #8C0000;
     margin-right: 3px;
     border-radius: 30px;
 }
 
-ul li.item-menu a{
+ul li.item-menu a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -75,52 +73,51 @@ ul li.item-menu a{
     margin-bottom: 80px;
 }
 
-ul li.item-menu a .txt-link{
+ul li.item-menu a .txt-link {
     margin-left: 70px;
     transition: 1s;
     opacity: 0;
 }
 
-nav.menu-lateral.expandir .txt-link{
+nav.menu-lateral.expandir .txt-link {
     margin-left: 40px;
     opacity: 1;
 }
 
-ul li.item-menu a .icon > i{
+ul li.item-menu a .icon > i {
     font-size: 30px;
     margin-left: 10px;
 }
 
-/*Agentes*/
-
+/* Agentes */
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 80px; 
+    margin-top: 10px; 
     margin-left: 5%;
-  }
-  
-  .card {
+}
+
+.card {
     width: calc(25% - 20px);
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #727272;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     height: auto;
-  }
-  
-  .modal {
+}
+
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -130,32 +127,32 @@ ul li.item-menu a .icon > i{
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: #545454;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
     border-radius: 5px;
-  }
-  
-  .close {
+}
+
+.close {
     color: #8C0000;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  .descricao{
+}
+
+.descricao {
     background: #919191;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -169,41 +166,41 @@ ul li.item-menu a .icon > i{
     padding-bottom: 40px;
 }
 
-.titulo{
-  margin-bottom: 20px;
-  font-size: 30px;
-  color: #333;
-  padding-right: 100px;
+.titulo {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+    padding-right: 100px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
-  color: #555;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
 }
 
 input, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #919191;
-  border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #919191;
+    border-radius: 4px;
 }
 
 button {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #8C0000;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8C0000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #7e0000;
+    background-color: #7e0000;
 }
